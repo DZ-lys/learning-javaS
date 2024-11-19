@@ -27,10 +27,10 @@
  
  
 
-let dorem = true;
+let dorem = false;
 let score = 19;
 if (score > 18){
-    if (dorem = true){
+    if (dorem) {
         console.log("pass")
     }else {
         console.log("unable to go on")
