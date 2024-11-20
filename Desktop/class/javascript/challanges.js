@@ -78,7 +78,7 @@
 // console.log(tempF);
 
 // task 8
-// let year = 2100;
+// let year = 2024;
 // if (year % 400 == 0) {
 //     console.log(year, "is a leap year");
 // } else {
@@ -90,5 +90,23 @@
 //         } else {
 //             console.log(year, "is not a leap year");
 //         }
+//     }
+// }
+
+// task 9
+// let num1 = 6;
+// let num2 = 5;
+// let num3 = 4;
+// if (num1 < num2) {
+//     if (num1 < num3) {
+//         console.log(num1);
+//     } else {
+//         console.log(num3);
+//     }
+// } else {
+//     if (num2 < num3) {
+//         console.log(num2);
+//     } else {
+//         console.log(num3);
 //     }
 // }
