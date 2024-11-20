@@ -23,3 +23,19 @@
 //         console.log(sum);
 //     }
 // }
+
+// task 22
+let num = 12;
+for(let i = 1;i <=12; i++){
+    if (num % i == 0){
+        console.log(i);
+    }
+}
+
+// task 23
+// let n = 6;
+// let multi = 1;
+// for(let i = 1; i <= n; i++){
+//     multi = multi * i;
+//     console.log(multi);
+// }
