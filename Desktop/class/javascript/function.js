@@ -7,7 +7,7 @@
 
 // function printNumbers(n) {
 //     for (let i = 1;i <=n; i++){
-//         console.log(i);
+//         if (i % 2 === 1) console.log(i);
 //     }
 // }
 
@@ -46,33 +46,67 @@
 
 // leapYear(2100);
 
-const min = (a, b) =>{
-    if (a <= b) return a;
-    return b;
-}
+// const min = (a, b) =>{
+//     if (a <= b) return a;
+//     return b;
+// }
 
-const gcd = (a, b) => {
-    let m = min(a, b);
+// const gcd = (a, b) => {
+//     let m = min(a, b);
 
-    while(true){
-        if (a % m===0 && b % m===0) return (m);
-        m--;
+//     while(true){
+//         if (a % m===0 && b % m===0) return (m);
+//         m--;
         
-    }
-}
+//     }
+// }
    
-console.log(gcd(121, 132));
+// console.log(gcd(121, 132));
 
-const arr = [-4, -5, -1, -40];
+// const arr = [-4, -5, -1, -40];
 
-const max = (numbers) => {
-  let m = arr[3];
+// const max = (numbers) => {
+//   let m = arr[3];
 
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > m) m = numbers[i];
-  }
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > m) m = numbers[i];
+//   }
 
-  return m;
-};
+//   return m;
+// };
 
-console.log(max(arr));
+// console.log(max(arr));
+
+// const multiplication = (n) => {
+//     let multiAnswer = 0
+//     for(let i = 1; i <= 10; i++) {
+//         multiAnswer = n * i;
+//         console.log(n, "x", i, "=", multiAnswer);
+//     }
+// }
+// multiplication(5);
+
+// const total_sum = (n) => {
+//     let sum = 0;
+//     for(let i=1;i <= n; i++) {
+//         if (i % 2 === 1) console.log(sum = sum + i);
+//     }
+// } 
+
+// total_sum(10);
+
+// const factor = (n) => {
+//     for(let i = 1;i <= n; i++) {
+//         if (n % i === 0) console.log(i);
+//     }
+// }
+
+// factor(12);
+
+// const factorial = (n) => {
+//     let fact = 1;
+//     for(let i = 1; i <= n; i++) {
+//         console.log(fact = fact * i);
+//     }
+// }
+// factorial(5);
