@@ -62,3 +62,17 @@ const gcd = (a, b) => {
 }
    
 console.log(gcd(121, 132));
+
+const arr = [-4, -5, -1, -40];
+
+const max = (numbers) => {
+  let m = arr[3];
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > m) m = numbers[i];
+  }
+
+  return m;
+};
+
+console.log(max(arr));
