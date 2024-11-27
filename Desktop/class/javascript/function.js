@@ -111,3 +111,19 @@
 // }
 // factorial(5);
 
+// finding the smallest and largest number
+// only checking odd or even
+let numbers = [24, 36, 44, 45, 64, 145, 38, 92, 200, 21, 24, 16, 14, 15, 222];
+
+let min = (arr) => {
+  let min = numbers[0];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 1) {
+        if (arr[i] < min) min = arr[i];
+    }
+  }
+
+  return min;
+};
+
+console.log(min(numbers));

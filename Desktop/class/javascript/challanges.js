@@ -112,14 +112,14 @@
 // }
 
 // challange 1
-    function gatsuurGenerator(n) {
-    let od = "*";
-     for (let i = 0; i < n; i++) {
-        console.log(od);
-        od = od + "*";
-     }
-    }
-    gatsuurGenerator(3);
+    // function gatsuurGenerator(n) {
+    // let od = "*";
+    //  for (let i = 0; i < n; i++) {
+    //     console.log(od);
+    //     od = od + "*";
+    //  }
+    // }
+    // gatsuurGenerator(3);
 // // challange 2 
 // let numbers = (a, b, c) => {
 //     if (a >= b && a <= c || a <= b && a >= c) return a; 
@@ -130,13 +130,14 @@
 // console.log(numbers(7, 12, 9)); 
 
 // // challange 3
-const Numbers = (n) => {
-    for(let i = 1; i <= n; i++) {
-        if (i % 3 === 0 && i % 5 === 0) console.log("fizzbuzz");
-        else if (i % 3 === 0) console.log("fizz");
-        else if (i % 5 === 0) console.log("buzz");
-        else console.log(i);
-    }
-}
+// const Numbers = (n) => {
+//     for(let i = 1; i <= n; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) console.log("fizzbuzz");
+//         else if (i % 3 === 0) console.log("fizz");
+//         else if (i % 5 === 0) console.log("buzz");
+//         else console.log(i);
+//     }
+// }
 
-Numbers(15);
+// Numbers(15);
+
