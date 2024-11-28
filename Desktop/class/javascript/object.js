@@ -25,8 +25,18 @@ let findAdults = (input) => {
     return adults;
 }
 
-let ageResult = findAdults(students);
+let findMinors = (input) => {
+    let minors = [];
+    for (let i = 0; i < input.length; i++) {
+        if (input[i].age < 18) minors.push(input[i]);
+    }
+    return minors;
+}
+
+let adultList = findAdults(students);
+let minorList = findMinors(students);
 // console.log(ageResult);
+console.log(minorList);
 
 let findMales = (input) => {
     let males = [];
