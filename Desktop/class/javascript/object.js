@@ -82,15 +82,15 @@ let students = [
     { name: 'Bayar', age: 17, grades: [60, 70, 80, 90, 95], gender: "male" },
 ]
 
-// let findOneStudentAvgGrade = (oneStudents) => {
-//     let grades = oneStudents.grades;
-//     let sum = 0;
-//     for(let i = 0; i < grades.length; i++) {
-//         sum = sum + grades[i]; 
-//     }
-//     let average = sum / grades.length;
-//     return average;
-// }
+let findOneStudentAvgGrade = (oneStudents) => {
+    let grades = oneStudents.grades;
+    let sum = 0;
+    for(let i = 0; i < grades.length; i++) {
+        sum = sum + grades[i]; 
+    }
+    let average = sum / grades.length;
+    return average;
+}
 
 // let findAllAverageGrade = (allStudents) => {
 //     sum = 0;
