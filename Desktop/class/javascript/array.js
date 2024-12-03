@@ -85,7 +85,7 @@ let sorted = grades.sort((a, b) => {
     return a - b;
 }); 
 
-// console.log(sorted);
+console.log(sorted);
 
 // filter method can take 1 definition and will return bolean(true or false) 
 let filtered = grades.filter((grade) => {
@@ -107,4 +107,4 @@ let mappedGrades = grades.map((grade) => {
         }
     }
 })
-console.log(mappedGrades);
+// console.log(mappedGrades);
